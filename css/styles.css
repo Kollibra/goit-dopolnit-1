@@ -1,0 +1,59 @@
+/* Цвет текста  и фона*/
+:root {
+    --main-text-color: #FFFFFF;
+    --title-text-color: #F1F1F2;
+    --accent-text-color: #F7941E;
+    --white-text-color: #ffffff;
+    --black-text-color: #000000;
+    --dark-section-color: #231F20;
+    --header-footer-color #FAFAFA;
+}
+ul {
+    list-style: none;
+}
+body {
+    background-color: var(--main-text-color);
+    color: 
+    font-family: Montserrat, sans-serif;
+    font-weight: ;
+    font-size: ;
+    letter-spacing: ;
+    
+}
+
+.logo {
+    font-family: 'Homemade Apple';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.17em;
+    color: var(--black-text-color);
+    text-decoration: none;
+} 
+/* */
+/* Хедер, навигация  */
+.header .link {
+    font-size: 18px;
+    line-height: 1,22em;
+    color: var(--black-text-color);
+    text-decoration: none;
+}
+.header .link:hover {
+    color: var(--accent-text-color);
+}
+/* Хедер кнопка */
+.btm-link {
+    color: var(--accent-text-color);
+    font-size: 18px;
+    line-height: 1.22em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-title {
+    font-size: 56px;
+    line-height: 1.23em;
+    color: var(--black-text-color);
+
+}
+
+
